@@ -7,7 +7,7 @@ Color:
 Typographie:
 
     h1/h2
-        font-family: "macho", sans-serif;
+        font-family: "larken", sans-serif;
         font-weight: 900;
         font-style: normal;
 
@@ -19,17 +19,15 @@ Typographie:
 
 */
 
-/*.navbar {
-    position: fixed;
-}*/
+/*.navbar*/
 
 .navbar-toggler {
     background-color: #ff1617;
-    position: fixed;
 }
 
+/*.header*/
 header {
-    background-image: url(/Ressources/png/pizza_la_reine_flou_dir.png);
+    background-image: url(./Ressources/png/pizza_la_reine_flou_dir.png);
     color: white;
     padding: 2em;
     background-size: auto auto;
@@ -56,7 +54,7 @@ header h1 {
 h1,
 h2 {
     margin-top: .5em;
-    font-family: "macho", sans-serif;
+    font-family: "larken", sans-serif;
     font-weight: 900;
     font-style: italic;
     padding-left: 1em;
@@ -98,6 +96,8 @@ section {
     width: 2em;
 }
 
+/*.pizza semaine*/
+
 .pizza_semaine {
     color: white;
     background-color: #151734;
@@ -110,6 +110,7 @@ section {
     border-radius: 1.5em;
 }
 
+/*.new's*/
 .newsletter {
     color: white !important;
     background-color: #ff1617;
@@ -118,12 +119,21 @@ section {
     margin-right: -100%;
 }
 
+/*.footer*/
+
 footer {
     padding: 2em;
 
 }
 
 /*contact*/
+
+.contactez {
+    margin-right: 20%;
+    margin-left: 40%;
+
+}
+
 .white {
     padding: 0.7em;
 }
@@ -141,7 +151,7 @@ main .contactez-nous {
     margin-top: 20em;
 }
 
-/*back-office*/
+/* page back-office*/
 
 
 div[href="btn_back"] {
@@ -151,6 +161,8 @@ div[href="btn_back"] {
 div[href="btn_back"] a {
     margin: 0 10px;
 }
+
+/* page contact*/
 
 .table {
     padding: 20em;
@@ -162,6 +174,31 @@ div[href="btn_back"] a {
 
 section .maps {
     background-color: #151734;
+    color: white;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-form input {
+    outline: 2px solid #151734;
+    border-radius: 10px;
+
+}
+
+.contact-message {
+    width: 100%;
+    outline: 2px solid #151734;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-contact {
+    transition: 0.75s;
+    margin-right: 15px;
+    background-color: #151734;
+    color: white;
 }
 
 /*prochainement*/
@@ -173,6 +210,8 @@ p {
     margin-left: 5em;
     margin-right: 20em;
     font-size: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 
@@ -183,6 +222,7 @@ p {
     .btn-danger {
 
         margin-top: 20px !important;
+        margin-right: 10em;
     }
 
     .section {
@@ -199,14 +239,14 @@ p {
     }
 
     p {
-        font-size: 1em;
-        margin-left: 0em;
+        font-size: 1.1em;
+        margin-left: 1.2em;
         margin-right: 0em;
         position: sticky;
     }
 
     section[href="prochainement"] {
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         position: relative;
         top: 220px;
     }

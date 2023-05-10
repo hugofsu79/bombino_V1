@@ -27,33 +27,54 @@
         <div class="container-fluid">
             <a class="nav-item nav-link active mx-auto" href="./index.html"><img src="/Ressources/png/Logo_trans.png"
                     alt="logo_bombino" width="90"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" style="margin-right: 2em;" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="text-white nav-link active" aria-current="page" href="./back-office.html">back-office</a>
                     <a class="text-white nav-link" href="./contact.html">Contact</a>
-                    <a class="text-white nav-link" href="#">Prochainement</a>
+                    <a class="text-white nav-link" href="./prochainement.html">Prochainement</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    
+
     <section href="white"></section>
-    <main href="contactez-nous">
-        <h1>Contact</h1>
-        <h3>Pour toute réservation, contactez-nous</h3>
-        <div href="telephone_number"><span aria-label="Appeler le 05 16 18 24 59">05 16 18 24 59</span></div>
-    </main>
-    <div href="mail">
-        <form method="post" action="mail.php">
-            <textarea rows="10" cols="30" name="message"></textarea>
-            <label>Tape ton message ici pour nous écrire</label>
-            <input type="submit">
-        </form>
+    <h1>Contacter nous</h1>
+    <div class="contactez" style="padding: 2em; margin-left: 2em;">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <label>Nom :</label>
+                    <input type="text" id="name" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <label>Email :</label>
+                    <input type="email" id="email" placeholder="Ajouter votre email" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-form">
+                    <label>Votre message :</label>
+                    <textarea id="message" rows="3" class="contact-message"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-form">
+                    <button class="btn btn-contact"> envoyer</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <section href="maps" style="display: flex; justify-content: center; background-color: #151734;">
