@@ -1,0 +1,214 @@
+/*
+Color: 
+        #151734 (blue)
+        #0e1342 
+        #ff1617 (rouge)
+
+Typographie:
+
+    h1/h2
+        font-family: "macho", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+
+    h3
+    p,
+        font-family: "myriad-variable",sans-serif;
+        font-variation-settings: 'wght' 300, 'wdth' 90;
+}
+
+*/
+
+/*.navbar {
+    position: fixed;
+}*/
+
+.navbar-toggler {
+    background-color: #ff1617;
+    position: fixed;
+}
+
+header {
+    background-image: url(/Ressources/png/pizza_la_reine_flou_dir.png);
+    color: white;
+    padding: 2em;
+    background-size: auto auto;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+header h1 {
+    padding-top: 6em;
+}
+
+#rectangle_left {
+    width: 60px;
+    height: 200px;
+    background: #ff1617;
+}
+
+
+/*Body*/
+
+h1,
+h2 {
+    margin-top: .5em;
+    font-family: "macho", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+h3,
+span,
+label {
+    font-family: "myriad-variable", sans-serif;
+    font-variation-settings: 'wght' 600, 'wdth' 90;
+    padding-left: 1em;
+
+}
+
+span {
+    font-family: "myriad-variable", sans-serif;
+    font-variation-settings: 'wght' 100, 'wdth' 90;
+
+}
+
+main p {
+    margin: 20px;
+}
+
+.menu {
+    text-align: center;
+}
+
+section {
+    padding: 2em;
+
+}
+
+.ensemble {
+    padding: .9em;
+}
+
+.pizza {
+    width: 2em;
+}
+
+.pizza_semaine {
+    color: white;
+    background-color: #151734;
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+.pizza_semaine img {
+    width: 32em;
+    border-radius: 1.5em;
+}
+
+.newsletter {
+    color: white !important;
+    background-color: #ff1617;
+    padding: 5em;
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+footer {
+    padding: 2em;
+
+}
+
+/*contact*/
+.white {
+    padding: 0.7em;
+}
+
+span .telephone_number {
+    padding-left: 20em;
+}
+
+form {
+    padding: 2em;
+    margin-left: 12em;
+}
+
+main .contactez-nous {
+    margin-top: 20em;
+}
+
+/*back-office*/
+
+
+div[href="btn_back"] {
+    text-align: center;
+}
+
+div[href="btn_back"] a {
+    margin: 0 10px;
+}
+
+.table {
+    padding: 20em;
+}
+
+.contactez_nous {
+    background-image: url(./Ressources/png/contactez_nous.jpeg);
+}
+
+section .maps {
+    background-color: #151734;
+}
+
+/*prochainement*/
+
+
+p {
+    float: left;
+    margin: 2em;
+    margin-left: 5em;
+    margin-right: 20em;
+    font-size: 1.2em;
+}
+
+
+/*  Media queries
+=================================== */
+
+@media screen and (max-width:575.98px) {
+    .btn-danger {
+
+        margin-top: 20px !important;
+    }
+
+    .section {
+        padding: 1em !important;
+    }
+
+
+    .pizza_semaine img {
+        width: 25em;
+    }
+
+    form {
+        margin-left: 0em;
+    }
+
+    p {
+        font-size: 1em;
+        margin-left: 0em;
+        margin-right: 0em;
+        position: sticky;
+    }
+
+    section[href="prochainement"] {
+        flex-direction:column-reverse;
+        position: relative;
+        top: 220px;
+    }
+
+}
